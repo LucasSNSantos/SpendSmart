@@ -1,4 +1,20 @@
-# How to contribute
+# Getting started
+
+## Compiling Server
+
+Requirements:
+- .NET 8.0 SDK
+
+To compile the server, open .sln with Visual Studio or use CLI SDK of dotnet do compile.
+
+## Compiling Client
+
+Requirements:
+- Node.js installed
+
+To compile the cliente, execute the command "npm run dev".
+
+# How to submit changes
 
 ### 1. Fork
 First of all, make a fork of this project, work always on the fork and submit pull requests.
