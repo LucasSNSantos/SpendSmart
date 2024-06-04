@@ -1,13 +1,35 @@
-# App Financeiro
+# Financial App
 
-Esse app tem o objetivo de ajudar as pessoas a se organizarem melhor financeiramente.
+This app has the main goal to help people organize their financial life better improved by AI.
 
-O app utiliza o Chat GPT para a leitura do extrato de qualquer tipo de banco, adicionando transações de forma rápida e prática.
+The app uses Chat GPT to read a table or pdf and extract purchase transaction information quickly.
 
-# Server
+# How to contribute
 
-Para compilar o server, abrir o arquivo .sln e compilar através do Visual Studio ou usar as ferramentas de compilação com o sdk do dotnet
+## Find an issue to work on
 
-# Client
+First, look for an open issue, if there are none available, think of something you would like to work on and propose it in a clear and organized way.
 
-Para compilar o cliente, executar o comando npm run dev com nodejs instalado.
+## Get the issue in charge
+
+If the issue has no one assigned to it and you wish to work on it, ask first if you can work on it and then start working.
+
+## Pull Request
+
+Once you think you're good to go, submit a Pull Request assigned the issue you are working on. Wait for the reviews to be done, if everything is okay then it will be merged into main, otherwise fix what need to be fixed and just commit the changes on the branch you did the pull request.
+
+# How to compile
+
+## Server
+
+Requirements:
+- .NET 8.0 SDK
+
+To compile the server, open .sln with Visual Studio or use CLI SDK of dotnet do compile.
+
+## Client
+
+Requirements:
+- Node.js installed
+
+To compile the cliente, execute the command "npm run dev".
