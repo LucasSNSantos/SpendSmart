@@ -38,7 +38,13 @@ That command will create the json configuration file:
 - Linux, macOS: `$HOME/.config/gcloud/application_default_credentials.json`
 - Windows: `%APPDATA%\gcloud\application_default_credentials.json`
 
-Set this in your environment:
+Set your application default credentials in your environment:
+
+- Windows Command Prompt: `set GOOGLE_APPLICATION_CREDENTIALS=KEY_PATH`
+- Windows PoerShell: `$env:GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"`
+- Linux/MacOs: `export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"`
+
+Set your project id in your environment:
 
 - Windows Command Prompt: `set GOOGLE_CLOUD_PROJECT_ID=your-google-cloud-project-id`
 - Windows PowerShell: `$env:GOOGLE_CLOUD_PROJECT_ID="your-google-cloud-project-id"`
